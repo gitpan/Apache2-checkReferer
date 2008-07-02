@@ -1,0 +1,43 @@
+Apache2-checkReferer
+
+This mod_perl2 "PerlAccessHandler" helps to prevent "deep linking".
+It is tested on FreeBSD 6.3 and FreeBSD 7.0
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Apache2::checkReferer
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Apache2-checkReferer
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Apache2-checkReferer
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Apache2-checkReferer
+
+    Search CPAN
+        http://search.cpan.org/dist/Apache2-checkReferer
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 Henk van Oers
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
